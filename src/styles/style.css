@@ -1,0 +1,150 @@
+:root {
+    --primary-color: #fe8a02;
+    --light-color: #f5f4f0;
+    --primary-dark-color: #42413c;
+    --dark-color: #2a2626;
+    --dark-50-color: #908d8b;
+    --brown-color: #b09a81;
+    --white-50-coor: #d7ccc0;
+    --button-text-color: #fff;
+    --button-hover-color: #ea7600;
+}
+
+@font-face {
+    font-weight: 400;
+    font-family: "Neucha";
+    src: url("fonts/Neucha-Regular.ttf");
+}
+
+@font-face {
+    font-weight: 400;
+    font-family: "Open Sans";
+    src: url("fonts/OpenSans-Regular.ttf");
+}
+
+@font-face {
+    font-weight: 700;
+    font-family: "Open Sans";
+    src: url("fonts/OpenSans-Bold.ttf");
+}
+
+/* GENERAL BLOCKS AND STYLES */
+
+html {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: var(--dark-color);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1110px;
+    padding: 100px 0;
+}
+
+.title {
+    width: max-content;
+    padding: 0;
+    margin: 0;
+    font-family: Neucha, cursive;
+    line-height: 1.2em;
+    color: var(--dark-color);
+}
+
+.h1 {
+    font-size: 4.5rem;
+}
+
+.h2 {
+    font-size: 3.75rem;
+}
+
+.h3 {
+    font-size: 2.1rem;
+}
+
+/*.button {*/
+/*    padding: 12px 24px;*/
+
+/*    border: none;*/
+
+/*    color: var(--button-text-color);*/
+
+/*    background-color: var(--primary-color);*/
+
+/*    font-weight: 700;*/
+/*    font-size: 1rem;*/
+/*}*/
+
+/*.button:hover {*/
+/*    background-color: var(--button-hover-color);*/
+/*}*/
+
+/* MODIFICATIONS */
+
+/*._highlight-txt {*/
+/*    color: var(--primary-color);*/
+/*}*/
+
+/*._light-pattern-bg {*/
+/*    background: url("images/background-pattern.png") no-repeat top / cover var(--light-color);*/
+/*    width: 100vw;*/
+/*    height: 100%;*/
+/*}*/
+
+/*!* HEADER *!*/
+
+/*.header {*/
+/*    box-sizing: border-box;*/
+/*}*/
+
+/*.header--body {*/
+/*    position: relative;*/
+/*    z-index: 0;*/
+/*    overflow: hidden;*/
+/*}*/
+
+/*.header--body::before {*/
+/*    position: absolute;*/
+/*    top: 55px;*/
+/*    left: 461px;*/
+/*    background: url("images/main 1.png") top / contain no-repeat;*/
+/*    width: 979px;*/
+/*    height: 525px;*/
+
+/*    content: "";*/
+/*    z-index: -1;*/
+/*}*/
+
+/*.header--title {*/
+/*    margin-bottom: 182px;*/
+/*}*/
+
+/*.header--description {*/
+
+/*}*/
+
+/*.description-columns {*/
+/*    display: flex;*/
+/*    align-items: flex-start;*/
+/*    gap: 30px;*/
+/*}*/
+
+/*.description-columns--item {*/
+/*    max-width: 540px;*/
+/*}*/
+
+/*.description-columns--item > p:nth-child(2) {*/
+/*    margin-bottom: 40px;*/
+/*}*/
+/*.header--button {*/
+
+/*}*/
