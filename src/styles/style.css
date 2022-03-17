@@ -50,15 +50,6 @@ body {
     z-index: 0;
 }
 
-.section_brown-bg {
-    background-color: var(--brown-color);
-    color: #fff;
-}
-
-.section_light-bg {
-    background-color: var(--light-color);
-}
-
 .container {
     margin: 0 auto;
     max-width: 1110px;
@@ -118,6 +109,62 @@ body {
 }
 
 /* MODIFICATIONS */
+.section_brown-bg {
+                       background-color: var(--brown-color);
+                       color: #fff;
+                   }
+
+.section_light-bg {
+    background-color: var(--light-color);
+}
+
+.content-columns_1 {
+    margin-bottom: 100px;
+}
+
+.content-columns_1--topic {
+    font: 400 24px/1.2em Neucha, cursive;
+}
+
+.content-columns_1--title {
+    margin-bottom: 30px;
+}
+
+.content-columns_1--description {
+    font: 400 34px/1.2em Neucha, cursive;
+    margin: 0;
+}
+
+.content-columns--topic_brown-bg {
+    color: var(--white-50-color);!important;
+}
+
+.content-columns--topic_light-bg {
+    color: var(--dark-50-color);!important;
+}
+
+.content-columns_2--title {
+    margin-bottom: 20px;
+    font: 700 14px/1.2em "Open Sans", sans-serif;
+    text-transform: uppercase;
+    padding: 5px 0 5px 10px;
+}
+
+.content-columns_2--title_brown-bg {
+    background-color: var(--brown-color);
+    color: #fff;
+}
+
+.content-columns_2--title_light-bg {
+    background-color: #fff;
+    color: var(--brown-color);
+}
+
+.content-columns_2--description-block {
+    margin: 0;
+}
+
+/* INDEPENDENT MODIFICATIONS */
 ._highlight-txt {
     color: var(--primary-color);
 }
@@ -135,14 +182,6 @@ body {
 
     z-index: 0;
     content: "";
-}
-
-.content-columns--topic_brown-bg {
-    color: var(--white-50-color);!important;
-}
-
-.content-columns--topic_light-bg {
-    color: var(--dark-50-color);!important;
 }
 
 /*!* HEADER *!*/
@@ -240,45 +279,3 @@ body {
 }
 
 /* IKEA-EFFECT */
-
-.ikea-effect {
-    background-color: var(--light-color);
-}
-
-.content-columns:first-child {
-    margin-bottom: 100px;
-}
-
-.content-columns--topic {
-    font: 400 24px/1.2em Neucha, cursive;
-}
-
-.content-columns--title {
-    margin-bottom: 30px;
-}
-
-.content-columns--description {
-    font: 400 34px/1.2em Neucha, cursive;
-    margin: 0;
-}
-
-.ikea-effect--title {
-    margin-bottom: 20px;
-    font: 700 14px/1.2em "Open Sans", sans-serif;
-    text-transform: uppercase;
-    padding: 5px 0 5px 10px;
-}
-
-.ikea-effect--title_brown-bg {
-    background-color: var(--brown-color);
-    color: #fff;
-}
-
-.ikea-effect--title_light-bg {
-    background-color: #fff;
-    color: var(--brown-color);
-}
-
-.ikea-effect--description > p {
-    margin: 0;
-}
