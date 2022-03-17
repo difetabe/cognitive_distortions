@@ -5,7 +5,7 @@
     --dark-color: #2a2626;
     --dark-50-color: #908d8b;
     --brown-color: #b09a81;
-    --white-50-coor: #d7ccc0;
+    --white-50-color: #d7ccc0;
     --button-text-color: #fff;
     --button-hover-color: #ea7600;
 }
@@ -57,7 +57,6 @@ body {
 
 .section_light-bg {
     background-color: var(--light-color);
-    color: var(--dark-color);
 }
 
 .container {
@@ -84,7 +83,6 @@ body {
     margin: 0;
     font-family: Neucha, cursive;
     line-height: 1.2em;
-    color: var(--dark-color);
 }
 
 .h1 {
@@ -137,6 +135,14 @@ body {
 
     z-index: 0;
     content: "";
+}
+
+.content-columns--topic_brown-bg {
+    color: var(--white-50-color);!important;
+}
+
+.content-columns--topic_light-bg {
+    color: var(--dark-50-color);!important;
 }
 
 /*!* HEADER *!*/
@@ -245,7 +251,6 @@ body {
 
 .content-columns--topic {
     font: 400 24px/1.2em Neucha, cursive;
-    color: var(--dark-50-color);
 }
 
 .content-columns--title {
