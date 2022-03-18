@@ -45,8 +45,6 @@ body {
 
 .section {
     position: relative;
-    width: 100vw;
-    overflow: hidden;
     z-index: 0;
 }
 
@@ -199,6 +197,11 @@ body {
 }
 
 /*!* HEADER *!*/
+
+.header {
+    overflow: hidden;
+}
+
 .header--body {
     position: relative;
     width: 100%;
